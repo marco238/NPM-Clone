@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #C12127;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  height: 23px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 6px 0 0;
+}
+
+.top-left {
+  display: inline-block;
+  float: left;
+}
+
+.heart {
+  margin: 0 20px 0 10px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 17px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*-----------------------*/
+
+#header {
+  background-color: rgb(32, 101, 136);
+  background-image: url(images/city-scape.svg);
+  background-position: 0 0;
+  background-size: cover;
+  height: 440px;
+  background-repeat: no-repeat;
+  border-top: 1px solid red;
+  position: relative;
+}
+
+.header-heading {
+  position: relative;
+  width: 30%;
+  height: 60%;
+  top: 7%;
+  left: 23%;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+}
+
+.header-heading h1 {
+  font-size: 2.6em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header-heading p {
+  word-spacing: 2px;
+  margin-bottom: 4%;
+}
+
+.header-heading a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-heading button {
+  background-color: rgb(240, 146, 51);
+  border: 0 solid rgb(240, 146, 51);
+  border-radius: 20px;
+  padding: 7px 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.search {
+  position: relative;
+  padding: 0;
+  margin: 1% auto;
+  width: 98%;
+  height: 10.4%;
+}
+
+.npm {
+  position: relative;
+  height: 100%;
+  float: left;
+  cursor: pointer;
+}
+
+.search-bar {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 82%;
+  margin-left: 1%;
+}
+
+.search-bar input {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  height: 100%;
+  width: 97%;
+  background-color: rgb(31, 82, 111);
+  border: 0.5px solid rgb(255, 255, 255, 0.2);
+  color: #999;
+  float: left;
+}
+
+.search-button {
+  font-size: 28px;
+  color: #bbb;
+  height: 100%;
+  width: 3%;
+  background-color: rgb(31, 82, 111);
+  border: 0.5px solid rgb(255, 255, 255, 0.2);
+  border-left: 0;
+  cursor: pointer;
+}
+
+.search p {
+  float: right;
+  color: #fff;
+  margin: 11px auto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 110%;
+}
+
+.search a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bear {
+  float: right;
+  height: 100%;
+}
+
+/*----------------------*/
+
+#orgs {
+  background-color: rgb(39, 53, 71);
+  color: #fff;
+  font-size: 1.1em;
+  border: 1px solid rgb(39, 53, 71);
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.org {
+  width: 57%;
+  height: 500px;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+}
+
+.org img {
+  width: 53%;
+  float: left;
+}
+
+.text {
+  float: right;
+  width: 47%;
+  height: 70%;
+  word-spacing: 2px;
+}
+
+.text ul {
+  padding-left: 15px;
+  margin: 0 0 50px 0;
+  margin-left: 10%;
+}
+
+.text li {
+  padding: 2px 0;
+}
+
+.text button {
+  background-color: rgb(203, 56, 55);
+  border: 0 solid black;
+  border-radius: 20px;
+  height: 2.4em;
+  width: 180px;
+  margin-left: 10%;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.orgs-heading {
+  height: 100px;
+  margin-left: 10%;
+  font-size: 1.4em;
+}
+
+.text p {
+  margin-top: 1px;
+  margin-left: 10%;
+}
+
+.text li {
+  margin-bottom: 10px;
+}
+
+/*----------------------*/
+
+#install {
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+  height: 530px;
+  color: #fff;
+  font-size: 1.1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-top: 1px solid rgb(39, 53, 51);
+}
+
+.install-text {
+  width: 57%;
+  margin: 6% auto 0;
+}
+
+.install-text h2 {
+  font-size: 2.2em;
+  margin-bottom: 0;
+}
+
+.install-text p {
+  width: 33%;
+  margin: 20px 0;
+}
+
+.install-text button {
+  background-color: rgb(49, 68, 88);
+  border-radius: 20px;
+  width: 14%;
+  height: 40px;
+  border: 1px solid rgb(49, 68, 88);
+  cursor: pointer;
+}
+
+.install-text a {
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+
+/*----------------------*/
+
+#blocks {
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 450px;
+}
+
+.blocks-heading {
+  width: 57%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: 75px;
+}
+
+.three-blocks {
+  width: 57%;
+  margin: 0 auto;
+}
+
+.service-box {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.blocks-heading h2 {
+  color: rgb(63, 68, 78);
+}
+
+.blocks-heading p {
+  font-size: 0.7em;
+  color: rgb(115, 125, 136);
+  margin-bottom: 25px;
+}
+
+.service-box p {
+  color: rgb(115, 125, 136);
+  width: 70%;
+  font-size: 1.1em;
+  margin: 0 auto;
+}
+
+.service-box h3 {
+  color: rgb(63, 68, 78);
+  font-size: 1.3em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.service-box a {
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
